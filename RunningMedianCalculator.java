@@ -28,6 +28,9 @@ public class RunningMedianCalculator {
 		balance();
 	}
 
+	/*
+	 * Returns null if no numbers have been added to the stream
+	 */
 	public Double getMedian() {
 
 		if (minHeap.size() == 0 && maxHeap.size() == 0) {
@@ -57,12 +60,4 @@ public class RunningMedianCalculator {
 			minHeap.add(maxHeap.poll());
 		}
 	}
-
-	public static void main(String[] args) {
-		RunningMedianCalculator RMC = new RunningMedianCalculator();
-		for (int i = 0; i < 10000; i++) {
-			RMC.addInt((int) (Math.random() * 10000));
-		}
-	}
-
 }
