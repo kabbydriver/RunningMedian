@@ -5,7 +5,6 @@ public class RunningMedianCalculator {
 	public static final int DEFAULT_START_SIZE = 11;
 	private PriorityQueue<Integer> minHeap; //numbers larger than median
 	private PriorityQueue<Integer> maxHeap ; //numbers small than median
-	private ArrayList<Integer> list = new ArrayList<Integer>();
 
 	public RunningMedianCalculator() {
 		minHeap = new PriorityQueue<Integer>();
@@ -54,4 +53,5 @@ public class RunningMedianCalculator {
 			minHeap.add(maxHeap.poll());
 		}
 	}
+
 }
