@@ -5,7 +5,9 @@ Given an even length stream of numbers, the median can be calculated as such
 1 2 3 4 5 6
 
 
-1 2 3     4 5 6
+1 2 3
+
+4 5 6
 
 First, split the list into two sorted halves.
 Taking the largest number in the left half and
