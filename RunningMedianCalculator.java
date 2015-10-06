@@ -1,11 +1,5 @@
 import java.util.PriorityQueue;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Arrays;
-import java.util.Random;
-
-
 public class RunningMedianCalculator {
 	
 	public static final int DEFAULT_START_SIZE = 11;
