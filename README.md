@@ -28,6 +28,7 @@ When asked to insert a new number, we check if it is smaller than our current
 median by peeking at the largest number in the max-heap. 
 
 Where n is the number of items passed through the stream, we get runtimes of
+
 Insert -- log(n)
 Median -- O(1)
 
