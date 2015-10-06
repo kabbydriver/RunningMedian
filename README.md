@@ -30,6 +30,7 @@ median by peeking at the largest number in the max-heap.
 Where n is the number of items passed through the stream, we get runtimes of
 
 Insert -- log(n)
+
 Median -- O(1)
 
 The heaps will only work when they are kept in balance. After
